@@ -1,7 +1,8 @@
 " unite source: middleman
 " Version: 1.0
-" Author : zeroyonichihachi <tkfm.yamaguchi@gmail.com>
+" Author : @zeroyonichihachi <tkfm.yamaguchi@gmail.com>
 " License: zlib License
+" Origin : vim-unite-chef by @thinca
 
 let s:save_cpo = &cpo
 set cpo&vim
