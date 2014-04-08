@@ -34,7 +34,7 @@ function! s:source.gather_candidates(args, context)
 endfunction
 
 function! unite#sources#middleman#define()
-  return map(['source', 'data', 'locales', 'helpers', 'lib'],
+  return map(['source', 'data', 'locales', 'lib'],
   \      'extend(deepcopy(s:source),
   \       {
   \         "name": "middleman/" . v:val,
