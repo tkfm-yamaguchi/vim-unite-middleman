@@ -44,7 +44,7 @@ function! unite#sources#middleman#define()
 endfunction
 
 function! unite#sources#middleman#mm_root()
-  let conf_file = findfile("config.rb" , fnamemodify(expand("%:p"), ":h") . ";")
+  let conf_file = findfile("config.rb" , fnamemodify(expand("%"), ":p:h") . ";")
   if conf_file == "" | return "" | endif
   return fnamemodify(expand(conf_file), ":h")
 endfunction
